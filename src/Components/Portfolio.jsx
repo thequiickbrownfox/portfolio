@@ -54,6 +54,30 @@ const projectList = [
       "The objective of this project is to build a machine learning model to predict the flight ticket price based on various features such as source, destination, number of stops, departure time, arrival time, etc.",
     url: "https://github.com/Spartan-119/Project-Pro/blob/main/Flight%20Ticket%20Price%20Predictor/FTPP.ipynb",
   },
+  {
+    title: "Fake News Classifier",
+    description:
+      "This project provides both a Naive Bayes and an LSTM-based Fake News Classifier. Transitioning to the LSTM model can lead to improved classification accuracy, especially when dealing with complex text data.",
+    url: "https://github.com/Spartan-119/Fake-News-Classifier",
+  },
+  {
+    title: "One Player Pong Game",
+    description:
+      "This Pong is a one-player game where the player controls a paddle and tries to hit the ball past the wall. The game keeps track of scores and ends when the player reaches a specified score limit.",
+    url: "https://github.com/Spartan-119/Pong-game",
+  },
+  {
+    title: "Conway's Game of Life",
+    description:
+      "This is an implementation of Conway's game of life in Python. Conway's Game of Life is a classic cellular automaton that simulates the evolution of life-like patterns on a grid. Despite its simple rules, it can produce complex and fascinating patterns.",
+    url: "https://github.com/Spartan-119/Conway-s-Game-of-life/tree/main",
+  },
+  {
+    title: "Movie Recommendation Engine",
+    description:
+      "In this project, I have built a recommendation engine that recommend movies in the descending order of user's likeliness to watch based on user's already watched movie.",
+    url: "https://github.com/Spartan-119/Movie_Recommendation_Engine",
+  },
 ];
 
 const Portfolio = () => {

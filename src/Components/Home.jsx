@@ -33,7 +33,7 @@ const Home = ({ name, title }) => {
           fontFamily: "consolas",
           position: "absolute",
           top: "15rem",
-          left: "57rem",
+          left: "37rem",
           width: "50rem",
         }}
       >
@@ -44,7 +44,7 @@ const Home = ({ name, title }) => {
           <b>{title}</b>
         </h2>
       </div>
-      <div style={{ position: "absolute", bottom: "3rem", left: "50%" }}>
+      <div style={{ position: "absolute", bottom: "3rem", left: "40%" }}>
         <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
       </div>
     </section>
