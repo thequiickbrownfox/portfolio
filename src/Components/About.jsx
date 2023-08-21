@@ -48,7 +48,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "Welcome to my data journey! I'm a former Data Scientist at Infosys, specializing in Python, classical Machine Learning, NLP, and statistical analysis. Currently pursuing an MSc in Data Science at Kingston University, I'm also a privacy advocate and host of the Applied Privacy Podcast. Explreo my portfoio to view my projects, and my podcast to learn more about privacy engineering. In my podcast, I invite privacy professionals to discuss their work and how they got into the field from an engineering and academic point of view.";
+  "Welcome to my data journey! I'm a former Data Scientist at Infosys, specializing in Python, data structures & algorithms, SQL, classical Machine Learning, NLP, and statistical analysis. Currently pursuing an MSc in Data Science at Kingston University. I'm also a privacy advocate and host of the Applied Privacy Podcast. Explore my portfolio to view my projects, and my podcast to learn more about privacy engineering. In my podcast, I invite privacy professionals to discuss their work and how they got into the field from an engineering and academic point of view.";
 
 const About = () => {
   return (
