@@ -24,10 +24,11 @@ const Header = () => {
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#portfolio">Portfolio</a>
-      <a href="#footer">Contact</a>
+      <a href="https://medium.com/@abin_varghese">Blogs</a>
       <a href="https://www.youtube.com/watch?v=cZsRlcJSYgI&list=PL96YYnJMk5eaH26qgcWkBfQtcbdJc-Vl4">
         Applied Privacy Podcast
       </a>
+      <a href="#footer">Contact</a>
     </div>
   );
 };
