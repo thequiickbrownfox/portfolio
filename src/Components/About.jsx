@@ -24,19 +24,22 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Hey yo! I'm an ex-Data Scientist and a privacy proponent, currently pursuing my MSc in Data Science at Kingston University.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Python Software Development",
+  "Data Science",
+  "Machine Learning",
+  "SQL",
+  "Java",
+  "Natural Language Processing",
+  "Data Visualization",
+  "Privacy Engineering",
+  "ML Frameworks - Tensorflow, PyTorch, Scikit-Learn",
 ];
 
 /**
@@ -45,7 +48,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "Welcome to my data journey! I'm a former Data Scientist at Infosys, specializing in Python, classical Machine Learning, NLP, and statistical analysis. Currently pursuing an MSc in Data Science at Kingston University, I'm also a privacy advocate and host of the Applied Privacy Podcast. Explreo my portfoio to view my projects, and my podcast to learn more about privacy engineering. In my podcast, I invite privacy professionals to discuss their work and how they got into the field from an engineering and academic point of view.";
 
 const About = () => {
   return (
