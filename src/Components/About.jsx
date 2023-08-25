@@ -47,10 +47,22 @@ const skillsList = [
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
  */
-const detailOrQuote =
-  "Welcome to my data journey!\n\n I'm a former Data Scientist at Infosys, specializing in Python, data structures & algorithms, SQL, classical Machine Learning, NLP, and statistical analysis. Currently pursuing an MSc in Data Science at Kingston University. I'm also a privacy advocate and host of the Applied Privacy Podcast. Explore my portfolio to view my projects, and my podcast (link at the top menu) to learn more about privacy engineering.\n\nI am into learning boxing these days. It was a mistake! Have been playing 🎸 for over 10 years. So, if you got a gig, ping me yeah🤘\nI am also guilty of spending too much time PETTING DOGS.";
+const detailOrQuote = (
+  <span>
+    Welcome to my data journey!<br />
+    <br />
+    I'm a former Data Scientist at Infosys, specializing in Python, data structures & algorithms, SQL, classical Machine Learning, NLP, and statistical analysis. Currently pursuing an MSc in Data Science at Kingston University. I'm also a privacy advocate and host of the {" "}
+    <a href="https://www.youtube.com/watch?v=cZsRlcJSYgI&list=PL96YYnJMk5eaH26qgcWkBfQtcbdJc-Vl4" target="_blank" rel="noopener noreferrer"><u>Applied Privacy Podcast.</u>
+    </a>{" "}
+     Please explore my podcast to learn more about privacy engineering.<br></br>
+    <br />
+    I am into learning boxing these days. It was a mistake! Have been playing 🎸 for over 10 years. So, if you got a gig, ping me yeah🤘
+    <br />
+    I am also guilty of spending too much time PETTING DOGS.
+  </span>
+);
 
-const About = () => {
+function About() {
   return (
     <section className="padding" id="about">
       <img className="background" src={image} alt={imageAltText} />
@@ -85,6 +97,6 @@ const About = () => {
       </div>
     </section>
   );
-};
+}
 
 export default About;
