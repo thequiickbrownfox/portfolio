@@ -6,7 +6,7 @@
  */
 
 import React from "react";
-import arrowSvg from "../images/down-arrow.svg";
+// import arrowSvg from "../images/down-arrow.svg";
 import PropTypes from "prop-types";
 
 /**
@@ -22,7 +22,7 @@ import PropTypes from "prop-types";
  */
 import image from "../images/2 hd.png";
 
-const imageAltText = "";
+// const imageAltText = "";
 
 const Home = ({ name, title }) => {
   return (
