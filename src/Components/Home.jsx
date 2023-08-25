@@ -44,9 +44,11 @@ const Home = ({ name, title }) => {
           <b>{title}</b>
         </h2>
       </div>
+      {/* COMMENTING THIS SECTION (DOWN ARROW) OUT
       <div style={{ position: "absolute", bottom: "3rem", left: "40%" }}>
         <img src={arrowSvg} style={{ height: "3rem", width: "3rem" }} alt={imageAltText} />
       </div>
+      */}
     </section>
   );
 };
