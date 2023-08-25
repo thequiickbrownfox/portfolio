@@ -17,7 +17,7 @@ const projectList = [
   {
     title: "A-B Testing Approach for Comparing Performance of ML Models",
     description:
-      "The objective of this project is to compare the performance of BERT and DistilBERT models for building an efficient Question and Answering system. Using A/B testing approach, we explore the effectiveness and efficiency of both models and determine which one is better suited for Q&A tasks.",
+      "This project aims to compare BERT and DistilBERT models to find the best fit for a Question and Answering system, using A/B testing to assess their effectiveness and efficiency.",
     url: "https://github.com/Spartan-119/A-B-Testing-Approach-for-Comparing-Performance-of-ML-Models",
     thumbnail: a_b_testing, // Use the imported thumbnail
   },
@@ -31,7 +31,7 @@ const projectList = [
   {
     title: "Credit Card Fraud Detection Project",
     description:
-      "[PRIVATE REPO] The primary goal of this project is to develop effective models for the detection of fraudulent credit card transactions. Credit card fraud is a significant concern for both financial institutions and cardholders, and machine learning techniques, particularly deep learning, have proven to be valuable tools for addressing this issue.",
+      "[PRIVATE REPO] This project's main objective is to create robust models for detecting credit card fraud using deep learning techniques, addressing a critical concern for financial institutions and cardholders.",
     url: "https://fraud-detection.herokuapp.com/",
     thumbnail: credit_card, // Use the imported thumbnail
   },
