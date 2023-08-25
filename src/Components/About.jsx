@@ -10,7 +10,7 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
- * directory and import here for use. Then, set imageAltText to string that 
+ * directory and import here for use. Then, set imageAltText to string that
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
@@ -49,16 +49,24 @@ const skillsList = [
  */
 const detailOrQuote = (
   <span>
-    Welcome to my data journey!<br />
+    Welcome to my data journey!
     <br />
-    I'm a former Data Scientist at Infosys, specializing in Python, data structures & algorithms, SQL, classical Machine Learning, NLP, and statistical analysis. Currently pursuing an MSc in Data Science at Kingston University. I'm also a privacy advocate and host of the {" "}
-    <a href="https://www.youtube.com/watch?v=cZsRlcJSYgI&list=PL96YYnJMk5eaH26qgcWkBfQtcbdJc-Vl4" target="_blank" rel="noopener noreferrer"><u>Applied Privacy Podcast.</u>
+    <br />
+    I'm a former Data Scientist at Infosys, specializing in Python, data structures & algorithms,
+    SQL, classical Machine Learning, NLP, and statistical analysis. Currently pursuing an MSc in
+    Data Science at Kingston University. I'm also a privacy advocate and host of the{" "}
+    <a
+      href="https://www.youtube.com/watch?v=cZsRlcJSYgI&list=PL96YYnJMk5eaH26qgcWkBfQtcbdJc-Vl4"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <u>Applied Privacy Podcast.</u>
     </a>{" "}
-     Please explore my podcast to learn more about privacy engineering.<br></br>
+    Please explore my podcast to learn more about privacy engineering.<br></br>
     <br />
-    I am into learning boxing these days. It was a mistake! Have been playing 🎸 for over 10 years. So, if you got a gig, ping me yeah🤘
-    <br />
-    I am also guilty of spending too much time PETTING DOGS.
+    I am into learning boxing these days. It was a mistake! Have been playing 🎸 for over 10 years.
+    So, if you got a gig, ping me yeah🤘
+    <br />I am also guilty of spending too much time PETTING DOGS.
   </span>
 );
 
