@@ -134,3 +134,19 @@ img.socialIcon {
     font-size: 1.2rem;
   }
 }
+
+/* Add this CSS to your styles.css or a separate CSS file */
+
+.podcast-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  grid-gap: 20px; /* Gap between items */
+}
+
+.podcast-block {
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+/* Adjust styles as needed for spacing, alignment, etc. */
