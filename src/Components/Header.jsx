@@ -24,8 +24,14 @@ const Header = () => {
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#portfolio">Portfolio</a>
-      <a href="https://medium.com/@abin_varghese">Blogs</a>
-      <a href="https://www.youtube.com/watch?v=cZsRlcJSYgI&list=PL96YYnJMk5eaH26qgcWkBfQtcbdJc-Vl4">
+      <a href="https://medium.com/@abin_varghese" target="_blank" rel="noopener noreferrer">
+        Blogs
+      </a>
+      <a
+        href="https://www.youtube.com/watch?v=cZsRlcJSYgI&list=PL96YYnJMk5eaH26qgcWkBfQtcbdJc-Vl4"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         Applied Privacy Podcast
       </a>
       <a href="#footer">Contact</a>
