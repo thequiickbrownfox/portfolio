@@ -24,6 +24,9 @@ const Header = () => {
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#portfolio">Portfolio</a>
+      <a href="https://read.cv/abinvarghese" target="_blank" rel="noopener noreferrer">
+        CV/Resume
+      </a>
       <a href="https://medium.com/@abin_varghese" target="_blank" rel="noopener noreferrer">
         Blogs
       </a>
