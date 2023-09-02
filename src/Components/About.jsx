@@ -53,7 +53,7 @@ const detailOrQuote = (
     <br />
     <br />
     I'm a former Data Scientist at Infosys, specializing in Python, data structures & algorithms,
-    SQL, classical Machine Learning, NLP, and statistical analysis. Currently pursuing an MSc in
+    SQL, classical and deep Machine Learning, NLP, and statistical analysis. Currently pursuing an MSc in
     Data Science at Kingston University. I'm also a privacy advocate and host of the{" "}
     <a
       href="https://www.youtube.com/watch?v=cZsRlcJSYgI&list=PL96YYnJMk5eaH26qgcWkBfQtcbdJc-Vl4"
