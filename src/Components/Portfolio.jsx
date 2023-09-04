@@ -39,7 +39,7 @@ const projectList = [
     title: "Flight Ticket Price Predictor",
     description:
       "The objective of this project is to build a machine learning model to predict the flight ticket price based on various features such as source, destination, number of stops, departure time, arrival time, etc.",
-    url: "https://github.com/Spartan-119/Project-Pro/blob/main/Flight%20Ticket%20Price%20Predictor/FTPP.ipynb",
+    url: "https://github.com/Spartan-119/Project-Pro/tree/main/Flight%20Ticket%20Price%20Predictor",
     thumbnail: flight_ticket, // Use the imported thumbnail
   },
   {
