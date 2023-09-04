@@ -30,7 +30,7 @@ const siteProps = {
   email: "abinvarghese90@gmail.com",
   gitHub: "Spartan-119",
   instagram: "_coffee.consumer_/",
-  linkedIn: "datasciencejokes/",
+  linkedIn: "iamabinvarghese/",
   medium: "abin_varghese",
   twitter: "_coffeedrinker_",
   youTube: "@AbinVarghese",
