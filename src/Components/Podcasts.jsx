@@ -6,6 +6,7 @@ import patricia from "../images/patricia.png";
 import dave from "../images/dave.png";
 import robin from "../images/robin.png";
 import thomas from "../images/thomas.png";
+import tawfiq from "../images/tawfiq.png";
 // Import other thumbnails as needed
 
 const podcasts = [
@@ -47,39 +48,76 @@ const podcasts = [
       "https://www.youtube.com/watch?v=-NV2ZyuFgcI&list=PL96YYnJMk5eaH26qgcWkBfQtcbdJc-Vl4&index=19",
     thumbnail: thomas,
   },
+  {
+    title: "Tawfiq Alashoor",
+    description:
+      "Dr. Tawfiq Alashoor, an Assistant Professor at Copenhagen Business School's Department of Digitalization, holds B.S., M.S., and Ph.D. degrees.",
+    videoUrl:
+      "https://www.youtube.com/c/abinvarghese",
+    thumbnail: tawfiq,
+  },
   // Add more podcast episodes as needed
 ];
 
+
 const Podcasts = () => {
-    return (
-      <section className="padding" id="podcasts">
-        <h2 style={{ textAlign: "center" }}>Applied Privacy Podcast</h2>
-        <div className="box">
-          <div
-            className="container" // Set the same class name as in Portfolio.jsx
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(5, 1fr)", // 4 columns
-              gap: "1rem",
-            }}
-          >
-            {podcasts.map((podcast, index) => (
-              <div className="box" key={index}>
-                <a href={podcast.videoUrl} target="_blank" rel="noopener noreferrer">
+  return (
+    <section className="padding" id="podcasts">
+      <h2 style={{ textAlign: "center" }}>Applied Privacy Podcast</h2>
+      <div className="box">
+        <div
+          className="container"
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(3, 1fr)", // 3 columns in the first row
+            gap: "1rem",
+            justifyContent: "space-between", // Space between columns
+          }}
+        >
+          {podcasts.slice(0, 3).map((podcast, index) => (
+            <div className="box" key={index}>
+              <a href={podcast.videoUrl} target="_blank" rel="noopener noreferrer">
+                <div className="inner-box">
                   <img
                     src={podcast.thumbnail}
                     alt={podcast.title}
-                    style={{ maxWidth: "100%", height: "auto" }}
+                    style={{ maxWidth: "100%", height: "auto", maxHeight: "200px" }}
                   />
                   <h3>{podcast.title}</h3>
-                </a>
-                <p className="small">{podcast.description}</p>
-              </div>
-            ))}
-          </div>
+                  <p className="small">{podcast.description}</p>
+                </div>
+              </a>
+            </div>
+          ))}
         </div>
-      </section>
-    );
-  };
+        <div
+          className="container"
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(3, 1fr)", // 3 columns in the second row
+            gap: "1rem",
+            justifyContent: "space-between", // Space between columns
+          }}
+        >
+          {podcasts.slice(3, 6).map((podcast, index) => (
+            <div className="box" key={index}>
+              <a href={podcast.videoUrl} target="_blank" rel="noopener noreferrer">
+                <div className="inner-box">
+                  <img
+                    src={podcast.thumbnail}
+                    alt={podcast.title}
+                    style={{ maxWidth: "100%", height: "auto", maxHeight: "200px" }}
+                  />
+                  <h3>{podcast.title}</h3>
+                  <p className="small">{podcast.description}</p>
+                </div>
+              </a>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
 
 export default Podcasts;
