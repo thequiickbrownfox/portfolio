@@ -10,10 +10,18 @@ import fake_news from "../images/fake_news.png";
 import pong from "../images/pong.png";
 import conway from "../images/conway.png";
 import netflix from "../images/netflix.png";
+import gan from "../images/gan.png"
 
 // const imageAltText = "desktop with books and laptop";
 
 const projectList = [
+  {
+    title: "GAN Model on MNSIT dataset",
+    description:
+      "This project delves into GANs, utilizing PyTorch and the MNIST dataset to understand their principles and generate digit images.",
+    url: "https://github.com/Spartan-119/PyTorch-project-to-build-a-GAN-model-on-MNIST-dataset",
+    thumbnail: gan, // Use the imported thumbnail
+  },
   {
     title: "A-B Testing Approach for Comparing Performance of ML Models",
     description:
@@ -73,28 +81,33 @@ const projectList = [
 ];
 
 const Portfolio = () => {
+  // Divide the projects into 3 rows with 3 projects in each row
+  const rows = [];
+  for (let i = 0; i < projectList.length; i += 3) {
+    rows.push(projectList.slice(i, i + 3));
+  }
+
   return (
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Portfolio Projects</h2>
 
-      <div
-        className="container"
-        style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "1rem" }}
-      >
-        {projectList.map((project) => (
-          <div className="box" key={project.title}>
-            <a href={project.url} target="_blank" rel="noopener noreferrer">
-              <img
-                src={project.thumbnail}
-                alt={project.title}
-                style={{ maxWidth: "100%", height: "auto" }}
-              />
-              <h3>{project.title}</h3>
-            </a>
-            <p className="small">{project.description}</p>
-          </div>
-        ))}
-      </div>
+      {rows.map((row, rowIndex) => (
+        <div key={`row_${rowIndex}`} className="container" style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "1rem" }}>
+          {row.map((project) => (
+            <div className="box" key={project.title}>
+              <a href={project.url} target="_blank" rel="noopener noreferrer">
+                <img
+                  src={project.thumbnail}
+                  alt={project.title}
+                  style={{ maxWidth: "100%", height: "auto" }}
+                />
+                <h3>{project.title}</h3>
+              </a>
+              <p className="small">{project.description}</p>
+            </div>
+          ))}
+        </div>
+      ))}
     </section>
   );
 };
