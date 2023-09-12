@@ -16,7 +16,7 @@ import gan from "../images/gan.png"
 
 const projectList = [
   {
-    title: "GAN Model on MNSIT dataset",
+    title: "GAN Model on MNIST dataset",
     description:
       "This project delves into GANs, utilizing PyTorch and the MNIST dataset to understand their principles and generate digit images.",
     url: "https://github.com/Spartan-119/PyTorch-project-to-build-a-GAN-model-on-MNIST-dataset",
