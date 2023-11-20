@@ -53,7 +53,7 @@ const podcasts = [
     description:
       "Dr. Tawfiq Alashoor, an Assistant Professor at Copenhagen Business School's Department of Digitalization, holds B.S., M.S., and Ph.D. degrees.",
     videoUrl:
-      "https://youtu.be/FvcAqAq-LF0",
+      "https://www.youtube.com/watch?v=UKuKdWgGun8&list=PL96YYnJMk5eaH26qgcWkBfQtcbdJc-Vl4&index=21",
     thumbnail: tawfiq,
   },
   // Add more podcast episodes as needed
