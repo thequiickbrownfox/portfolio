@@ -26,7 +26,13 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Abin Varghese",
-  title: "Machine Learning Engineer \n& \nPrivacy Proponent",
+  title: (
+    <>
+      Machine Learning Engineer <br />
+      & <br />
+      Privacy Proponent
+    </>
+  ),
   email: "abinvarghese90@gmail.com",
   gitHub: "Spartan-119",
   instagram: "_coffee.consumer_/",
