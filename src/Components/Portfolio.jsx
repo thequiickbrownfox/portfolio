@@ -10,11 +10,19 @@ import fake_news from "../images/fake_news.png";
 import pong from "../images/pong.png";
 import conway from "../images/conway.png";
 import netflix from "../images/netflix.png";
-import gan from "../images/gan.png"
+import gan from "../images/gan.png";
+import applied_privacy from "../images/ap.png";
 
 // const imageAltText = "desktop with books and laptop";
 
 const projectList = [
+  {
+    title: "Applied Privacy Lite",
+    description:
+      "[PRIVATE REPO] This project has 2 phases. Phase 1: Redact PIIs from a text. Phase 2: Implement Federated Learning to preserve privacy and increase collaboration for machine learning and analytics.",
+    url: "https://github.com/Spartan-119/applied-privacy-lite/",
+    thumbnail: applied_privacy, // Use the imported thumbnail
+  },
   {
     title: "GAN Model on MNIST dataset",
     description:
@@ -80,11 +88,13 @@ const projectList = [
   },
 ];
 
+// ... (previous imports and code)
+
 const Portfolio = () => {
-  // Divide the projects into 3 rows with 3 projects in each row
+  // Divide the projects into 2 rows with 5 projects in each row
   const rows = [];
-  for (let i = 0; i < projectList.length; i += 3) {
-    rows.push(projectList.slice(i, i + 3));
+  for (let i = 0; i < projectList.length; i += 5) {
+    rows.push(projectList.slice(i, i + 5));
   }
 
   return (
@@ -92,7 +102,11 @@ const Portfolio = () => {
       <h2 style={{ textAlign: "center" }}>Portfolio Projects</h2>
 
       {rows.map((row, rowIndex) => (
-        <div key={`row_${rowIndex}`} className="container" style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "1rem" }}>
+        <div
+          key={`row_${rowIndex}`}
+          className="container"
+          style={{ display: "grid", gridTemplateColumns: "repeat(5, 1fr)", gap: "1rem" }}
+        >
           {row.map((project) => (
             <div className="box" key={project.title}>
               <a href={project.url} target="_blank" rel="noopener noreferrer">
@@ -113,3 +127,4 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
