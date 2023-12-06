@@ -12,6 +12,8 @@ import conway from "../images/conway.png";
 import netflix from "../images/netflix.png";
 import gan from "../images/gan.png";
 import applied_privacy from "../images/ap.png";
+import crime_statistics from "../images/crime_statistics.png";
+import support2 from "../images/support2.png";
 
 // const imageAltText = "desktop with books and laptop";
 
@@ -22,6 +24,20 @@ const projectList = [
       "[PRIVATE REPO] This project has 2 phases. Phase 1: Redact PIIs from a text. Phase 2: Implement Federated Learning to preserve privacy and increase collaboration for machine learning and analytics.",
     url: "https://github.com/Spartan-119/applied-privacy-lite/",
     thumbnail: applied_privacy, // Use the imported thumbnail
+  },
+  {
+    title: "US Crime Statistics",
+    description:
+      "Performed an extensive exploratory data analysis on the US Crime Statistics dataset to understand the trends and patterns of crime in the US, and deployed it.",
+    url: "https://spartan-119.github.io/US_crime_statistics/",
+    thumbnail: crime_statistics, // Use the imported thumbnail
+  },
+  {
+    title: "Support2 dataset",
+    description:
+      "Performed an extensive exploratory data analysis on the SUPPORT2 dataset that comprises 9105 individual critically ill patients across 5 United States medical centers, accessioned throughout 1989-1991 and 1992-1994..",
+    url: "https://spartan-119.github.io/US_crime_statistics/",
+    thumbnail: support2, // Use the imported thumbnail
   },
   {
     title: "GAN Model on MNIST dataset",
@@ -91,10 +107,10 @@ const projectList = [
 // ... (previous imports and code)
 
 const Portfolio = () => {
-  // Divide the projects into 2 rows with 5 projects in each row
+  // Divide the projects into 3 rows with 4 projects in each row
   const rows = [];
-  for (let i = 0; i < projectList.length; i += 5) {
-    rows.push(projectList.slice(i, i + 5));
+  for (let i = 0; i < projectList.length; i += 4) {
+    rows.push(projectList.slice(i, i + 4));
   }
 
   return (
@@ -105,7 +121,7 @@ const Portfolio = () => {
         <div
           key={`row_${rowIndex}`}
           className="container"
-          style={{ display: "grid", gridTemplateColumns: "repeat(5, 1fr)", gap: "1rem" }}
+          style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "1rem" }}
         >
           {row.map((project) => (
             <div className="box" key={project.title}>
