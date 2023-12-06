@@ -36,7 +36,7 @@ const projectList = [
     title: "Support2 dataset",
     description:
       "Performed an extensive exploratory data analysis on the SUPPORT2 dataset that comprises 9105 individual critically ill patients across 5 United States medical centers, accessioned throughout 1989-1991 and 1992-1994..",
-    url: "https://spartan-119.github.io/US_crime_statistics/",
+    url: "https://github.com/Spartan-119/SUPPORT2",
     thumbnail: support2, // Use the imported thumbnail
   },
   {
@@ -104,7 +104,6 @@ const projectList = [
   },
 ];
 
-// ... (previous imports and code)
 
 const Portfolio = () => {
   // Divide the projects into 3 rows with 4 projects in each row
