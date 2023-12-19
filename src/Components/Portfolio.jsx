@@ -26,18 +26,18 @@ const projectList = [
     thumbnail: applied_privacy, // Use the imported thumbnail
   },
   {
-    title: "US Crime Statistics",
-    description:
-      "Performed an extensive exploratory data analysis on the US Crime Statistics dataset to understand the trends and patterns of crime in the US, and deployed it.",
-    url: "https://spartan-119.github.io/US_crime_statistics/",
-    thumbnail: crime_statistics, // Use the imported thumbnail
-  },
-  {
     title: "Support2 dataset",
     description:
       "Performed an extensive exploratory data analysis on the SUPPORT2 dataset that comprises 9105 individual critically ill patients across 5 United States medical centers, accessioned throughout 1989-1991 and 1992-1994..",
     url: "https://spartan-119.github.io/SUPPORT2/",
     thumbnail: support2, // Use the imported thumbnail
+  },
+  {
+    title: "US Crime Statistics",
+    description:
+      "Performed an extensive exploratory data analysis on the US Crime Statistics dataset to understand the trends and patterns of crime in the US, and deployed it.",
+    url: "https://spartan-119.github.io/US_crime_statistics/",
+    thumbnail: crime_statistics, // Use the imported thumbnail
   },
   {
     title: "GAN Model on MNIST dataset",
