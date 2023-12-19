@@ -36,7 +36,7 @@ const projectList = [
     title: "Support2 dataset",
     description:
       "Performed an extensive exploratory data analysis on the SUPPORT2 dataset that comprises 9105 individual critically ill patients across 5 United States medical centers, accessioned throughout 1989-1991 and 1992-1994..",
-    url: "https://github.com/Spartan-119/SUPPORT2",
+    url: "https://spartan-119.github.io/SUPPORT2/",
     thumbnail: support2, // Use the imported thumbnail
   },
   {
