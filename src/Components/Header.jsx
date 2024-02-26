@@ -25,7 +25,7 @@ const Header = () => {
       <a href="#about">About</a>
       <a href="#portfolio">Portfolio</a>
       <a
-        href="https://github.com/Spartan-119/CV/blob/main/Abin%20Varghese%20Resume.pdf"
+        href="https://drive.google.com/file/d/1IB5mxzCJGdZ1DWo40H6163kkZ5OzTzEJ/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
       >
