@@ -40,13 +40,13 @@ const description = (
  */
 const skillsList = [
   "Python Software Development",
-  "Data Science",
-  "Machine Learning",
+  "Fine-Tuning Large Language Model",
+  "Data Science & Machine Learning",
   "SQL",
   "Java",
   "Natural Language Processing",
   "Computer Vision",
-  "Privacy Engineering",
+  "Privacy Enhancing Technologies",
   "ML Frameworks - Tensorflow, PyTorch, Scikit-Learn",
 ];
 
