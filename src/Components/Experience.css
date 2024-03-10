@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center items vertically */
+  position: relative;
+  flex-direction: column; /* Stack items vertically */
+}
+
+.experience-heading {
+  text-align: center;
+  margin-bottom: 20px; /* Add some space below the title */
+}
+
+.timeline-container {
+  position: relative;
+  padding-left: 30px; /* Adjust the padding to make space for the vertical line */
+}
+
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+  }
+  
+  .timeline-item {
+    width: 90%; /* Adjust the width of the timeline items */
+    max-width: 1000px; /* Set a wider maximum width */
+    position: relative;
+    margin-bottom: 40px; /* Increase margin for better spacing */
+  }
+  
+  .timeline-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #0077b5; /* LinkedIn color */
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: -15px; /* Position the dot to the left of the timeline item */
+  }
+  
+  .timeline-content {
+    text-align: left;
+    padding-left: 20px; /* Add padding to align content with dot */
+  }
+  
+  .timeline-content h3 {
+    margin-top: 0;
+  }
+  
+  .timeline-content ul {
+    margin-top: 0;
+    padding-left: 0; /* Remove default padding */
+  }
+  
+  .timeline-content li {
+    margin-bottom: 5px; /* Add space between bullet points */
+  }
+  
+  .timeline-content p {
+    margin: 0 0 10px;
+  }
+  
+  .timeline-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #0077b5; /* LinkedIn color */
+  }
+    

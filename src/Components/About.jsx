@@ -23,8 +23,16 @@ const imageAltText = "purple and blue abstract background";
 /**
  * Sort description that expands on your title on the Home component.
  */
-const description =
-  "Hey yo! I'm an ex-Data Scientist and a privacy proponent, currently pursuing my MSc in Data Science at Kingston University.";
+const description = (
+  <p>
+    Hey yo! I am a privacy proponent, currently working as a Machine Learning Engineer in Computer Vision at{" "}
+    <a href="https://fruitcast.co.uk/" style={{ textDecoration: "underline" }}>
+      FruitCast
+    </a>
+    .
+  </p>
+);
+
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -37,7 +45,7 @@ const skillsList = [
   "SQL",
   "Java",
   "Natural Language Processing",
-  "Data Visualization",
+  "Computer Vision",
   "Privacy Engineering",
   "ML Frameworks - Tensorflow, PyTorch, Scikit-Learn",
 ];
@@ -52,9 +60,9 @@ const detailOrQuote = (
     Welcome to my data journey!
     <br />
     <br />
-    I'm a former Data Scientist at Infosys, specializing in Python, data structures & algorithms,
-    SQL, classical and deep Machine Learning, NLP, and statistical analysis. Currently pursuing an MSc in
-    Data Science at Kingston University. I'm also a privacy advocate and host of the{" "}
+    I'm a Machine Learning Engineer in Computer Vision at FruitCast, specializing in Python, data structures & algorithms,
+    SQL, classical and deep Machine Learning, NLP, Computer Vision and statistical analysis. Graduated with an MSc in
+    Data Science at Kingston University (01/2023 - 01/2024). I'm also a privacy advocate and host of the{" "}
     <a
       href="https://www.youtube.com/watch?v=cZsRlcJSYgI&list=PL96YYnJMk5eaH26qgcWkBfQtcbdJc-Vl4"
       target="_blank"

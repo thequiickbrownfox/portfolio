@@ -23,6 +23,7 @@ const Header = () => {
     >
       <a href="#home">Home</a>
       <a href="#about">About</a>
+      <a href="#experience">Work Experience</a>
       <a href="#portfolio">Portfolio</a>
       <a
         href="https://drive.google.com/file/d/1IB5mxzCJGdZ1DWo40H6163kkZ5OzTzEJ/view?usp=sharing"
