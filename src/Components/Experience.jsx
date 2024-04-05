@@ -15,9 +15,9 @@ function Experience() {
                 <h3>Machine Learning Engineer (Computer Vision) @ FruitCast</h3>
                 <p>03/2024 - Present</p>
                 <ul>
-                  <li>Responsible for tasks including pattern recognition, identification of potential robotics uses within the company, and computer science.</li>
-                  <li>Working closely with the data science team, including algorithms, machine learning, and statistical analysis.</li>
-                  <li>Developing and implementing computer vision algorithms, managing large datasets, and working closely in cross-functional teams for mechanical design, sensors, firmware, and software engineering.</li>
+                  <li>Research, develop and implement SOTA Visual Odometry and SLAM algorithms for the application in low tunnels.</li>
+                  <li>Responsible for tasks including pattern recognition, and application of robotics within the company in liaison with the data engineer and computer vision expert using Visual Odometry and SLAM.</li>
+                  <li>Developed and implemented computer vision algorithms, managing large datasets, and working closely in cross-functional teams for data science, mechanical design, sensors, firmware, and software engineering.</li>
                 </ul>
               </div>
             </div>
