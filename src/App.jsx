@@ -29,7 +29,7 @@ const siteProps = {
   name: "Abin Varghese",
   title: (
     <>
-      Machine Learning Engineer <br />
+      Machine Learning Research Engineer <br />
       & <br />
       Privacy Proponent
     </>
