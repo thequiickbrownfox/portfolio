@@ -14,6 +14,8 @@ import gan from "../images/gan.png";
 import applied_privacy from "../images/ap.png";
 import crime_statistics from "../images/crime_statistics.png";
 import support2 from "../images/support2.png";
+import ats from "../images/ats.jpeg";
+import vo from "../images/vo.png";
 
 // const imageAltText = "desktop with books and laptop";
 
@@ -26,9 +28,23 @@ const projectList = [
     thumbnail: applied_privacy, // Use the imported thumbnail
   },
   {
+    title: "Applicant Tracking System",
+    description:
+      "Designed an ATS to help streamline the recruitment process by matching job descriptions with candidate resumes. Used NLP techniques to extract keywords from resumes and job descriptions to match them and assign a matching score.",
+    url: "https://github.com/Spartan-119/ats",
+    thumbnail: ats, // Use the imported thumbnail
+  },
+  {
+    title: "LightGlue Visual Odometry",
+    description:
+      "Using the LightGlue feature extractor, implemented a Visual Odometry system to estimate the camera's motion in a 3D environment.",
+    url: "https://github.com/Spartan-119/simple-VO",
+    thumbnail: vo, // Use the imported thumbnail
+  },
+  {
     title: "Support2 dataset",
     description:
-      "Performed an extensive exploratory data analysis on the SUPPORT2 dataset that comprises 9105 individual critically ill patients across 5 United States medical centers, accessioned throughout 1989-1991 and 1992-1994..",
+      "Performed an extensive exploratory data analysis on the SUPPORT2 dataset that comprises 9105 individual critically ill patients across 5 United States medical centers, accessioned throughout 1989-1991 and 1992-1994.",
     url: "https://spartan-119.github.io/SUPPORT2/",
     thumbnail: support2, // Use the imported thumbnail
   },
