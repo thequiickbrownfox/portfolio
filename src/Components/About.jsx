@@ -42,7 +42,7 @@ const skillsList = [
   "Python Software Development",
   "Fine-Tuning Large Language Model",
   "Data Science & Machine Learning",
-  "SLAM Algorithms",
+  "System design",
   "Visual Odometry",
   "Natural Language Processing",
   "Computer Vision",
