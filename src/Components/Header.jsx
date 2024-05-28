@@ -24,7 +24,7 @@ const Header = () => {
       <a href="#home">Home</a>
       <a href="#about">About</a>
       <a href="#experience">Work Experience</a>
-      <a href="#portfolio">Portfolio</a>
+      <a href="#portfolio">Projects</a>
       <a
         href="https://drive.google.com/file/d/1PbiXu7oCSLls1pEJb2FJtG3YLVtf06M3/view?usp=sharing"
         target="_blank"
