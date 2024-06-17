@@ -38,7 +38,7 @@ function Experience() {
               <div className="timeline-dot"></div>
               <div className="timeline-content">
                 <h3>Leader for Data Science and Machine Learning @ Corizo</h3>
-                <p>02/2022 - Present</p>
+                <p>02/2022 - 05/2024</p>
                 <ul>
                   <li>Achieved 55% revenue increase: Led 1000+ students in data science and machine learning, driving growth.</li>
                   <li>Headed highest-revenue department: Developed impactful lessons and projects.</li>
