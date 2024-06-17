@@ -13,7 +13,7 @@ function Experience() {
               <div className="timeline-dot"></div>
               <div className="timeline-content">
                 <h3>Machine Learning Engineer (Computer Vision) @ FruitCast</h3>
-                <p>03/2024 - Present</p>
+                <p>03/2024 - 06/2024</p>
                 <ul>
                   <li>Research, develop and implement SOTA Visual Odometry for the application in polytunnels.</li>
                   <li>Responsible for tasks including pattern recognition, and application of robotics within the company in liaison with the data engineer and computer vision expert using Visual Odometry.</li>
