@@ -9,10 +9,22 @@ function Experience() {
         <div className="timeline-container">
           <div className="vertical-line"></div> {/* Vertical line for the timeline */}
           <div className="timeline">
+          <div className="timeline-item">
+              <div className="timeline-dot"></div>
+              <div className="timeline-content">
+                <h3>Head of Data @ VIRAL</h3>
+                <p>06/2024 - Present</p>
+                <ul>
+                  <li>Developed a custom RAG system to rank job postings and extracted data for the process.</li>
+                  <li>Established KPIs in liaison with the CEO to rank the job postings.</li>
+                  <li>Currently automating the job posting update process and continuous ranking using a custom RAG + LLM system.</li>
+                </ul>
+              </div>
+            </div>
             <div className="timeline-item">
               <div className="timeline-dot"></div>
               <div className="timeline-content">
-                <h3>Machine Learning Engineer (Computer Vision) @ FruitCast</h3>
+                <h3>Machine Learning Research Engineer (Computer Vision) @ FruitCast</h3>
                 <p>03/2024 - 06/2024</p>
                 <ul>
                   <li>Research, develop and implement SOTA Visual Odometry for the application in polytunnels.</li>

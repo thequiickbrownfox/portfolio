@@ -25,9 +25,9 @@ const imageAltText = "purple and blue abstract background";
  */
 const description = (
   <p>
-    Hey yo! I am a privacy proponent, currently working as a Machine Learning Research Engineer in Computer Vision at{" "}
-    <a href="https://fruitcast.co.uk/" style={{ textDecoration: "underline" }}>
-      FruitCast
+    Hey yo! I am a privacy proponent, currently working as the Head of Data at{" "}
+    <a href="https://www.viral.careers/" style={{ textDecoration: "underline" }}>
+      VIRAL
     </a>
     .
   </p>
@@ -43,7 +43,8 @@ const skillsList = [
   "Fine-Tuning Large Language Model",
   "Data Science & Machine Learning",
   "System design",
-  "Visual Odometry",
+  "RAG",
+  "LLM",
   "Natural Language Processing",
   "Computer Vision",
   "Privacy Enhancing Technologies",
@@ -60,7 +61,7 @@ const detailOrQuote = (
     Welcome, World!
     <br />
     <br />
-    I'm a Machine Learning Research Engineer in Computer Vision at FruitCast, specializing in Python, data structures & algorithms,
+    I'm the Head of Data at VIRAL, specializing in Python, data structures & algorithms,
     SQL, classical and deep Machine Learning, NLP, Computer Vision and statistical analysis. Graduated with an MSc in
     Data Science at Kingston University (01/2023 - 01/2024). I'm also a privacy advocate and host of the{" "}
     <a
