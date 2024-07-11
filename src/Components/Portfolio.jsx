@@ -16,6 +16,7 @@ import crime_statistics from "../images/crime_statistics.png";
 import support2 from "../images/support2.png";
 import ats from "../images/ats.jpeg";
 import vo from "../images/vo.png";
+import gnn from "../images/gnn.png";
 
 // const imageAltText = "desktop with books and laptop";
 
@@ -26,6 +27,13 @@ const projectList = [
       "This project has 2 phases. Phase 1: Redact PIIs from a text. Phase 2: Implement Federated Learning to preserve privacy and increase collaboration for machine learning and analytics.",
     url: "https://github.com/Spartan-119/applied-privacy-lite/",
     thumbnail: applied_privacy, // Use the imported thumbnail
+  },
+  {
+    title: "Graph Neural Network for Node Classification",
+    description:
+      "This project contains a PyTorch implementation of a Graph Neural Network (GNN) for node classification on the Cora dataset using the PyTorch Geometric library.",
+    url: "https://github.com/Spartan-119/simple_gnn",
+    thumbnail: gnn, // Use the imported thumbnail
   },
   {
     title: "Applicant Tracking System",
