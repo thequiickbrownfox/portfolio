@@ -12,7 +12,7 @@ function Experience() {
           <div className="timeline-item">
               <div className="timeline-dot"></div>
               <div className="timeline-content">
-                <h3>Head of Data @ VIRAL</h3>
+                <h3>Data Scientist @ VIRAL</h3>
                 <p>06/2024 - Present</p>
                 <ul>
                   <li>Developed a custom RAG system to rank job postings and extracted data for the process.</li>

@@ -17,6 +17,7 @@ import support2 from "../images/support2.png";
 import ats from "../images/ats.jpeg";
 import vo from "../images/vo.png";
 import gnn from "../images/gnn.png";
+import rag from "../images/rag.png";
 
 // const imageAltText = "desktop with books and laptop";
 
@@ -41,6 +42,13 @@ const projectList = [
       "Designed an ATS to help streamline the recruitment process by matching job descriptions with candidate resumes. Used NLP techniques to extract keywords from resumes and job descriptions to match them and assign a matching score.",
     url: "https://github.com/Spartan-119/ats",
     thumbnail: ats, // Use the imported thumbnail
+  },
+  {
+    title: "Ranking Job Descriptions using RAG",
+    description:
+      "Built a simple RAG pipeline to rank the quality of job descriptions based on 25 KPIs identified. This system scores based on a semantic similarity search.",
+    url: "https://github.com/Spartan-119/rag_ranking",
+    thumbnail: rag, // Use the imported thumbnail
   },
   {
     title: "LightGlue Visual Odometry",
