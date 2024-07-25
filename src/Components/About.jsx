@@ -25,7 +25,7 @@ const imageAltText = "purple and blue abstract background";
  */
 const description = (
   <p>
-    Hey yo! I am a privacy proponent, currently working as the Head of Data at{" "}
+    Hey yo! I am a privacy proponent, currently working as Data Scientist at{" "}
     <a href="https://www.viral.careers/" style={{ textDecoration: "underline" }}>
       VIRAL
     </a>
@@ -61,9 +61,9 @@ const detailOrQuote = (
     Welcome, World!
     <br />
     <br />
-    I'm the Head of Data at VIRAL, specializing in Python, data structures & algorithms,
+    I'd like to call myself a Machine Learning Engineer, specializing in Python, data structures & algorithms,
     SQL, classical and deep Machine Learning, NLP, Computer Vision and statistical analysis. Graduated with an MSc in
-    Data Science at Kingston University (01/2023 - 01/2024). I'm also a privacy advocate and host of the{" "}
+    Data Science with Distinction at Kingston University (01/2023 - 01/2024). I'm also a privacy advocate and host of the{" "}
     <a
       href="https://www.youtube.com/watch?v=cZsRlcJSYgI&list=PL96YYnJMk5eaH26qgcWkBfQtcbdJc-Vl4"
       target="_blank"

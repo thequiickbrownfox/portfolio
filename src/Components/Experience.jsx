@@ -15,9 +15,9 @@ function Experience() {
                 <h3>Data Scientist @ VIRAL</h3>
                 <p>06/2024 - Present</p>
                 <ul>
-                  <li>Developed a custom RAG system to rank job postings and extracted data for the process.</li>
-                  <li>Established KPIs in liaison with the CEO to rank the job postings.</li>
-                  <li>Currently automating the job posting update process and continuous ranking using a custom RAG + LLM system.</li>
+                  <li>Built a pipeline to automatically extract job descriptions from job boards, clean it, transform it and load it to the Airtable.</li>
+                  <li>Built a simple RAG pipeline to rank the quality of job descriptions based on 25 KPIs identified. This system scores based on a semantic similarity
+search.</li>
                 </ul>
               </div>
             </div>
