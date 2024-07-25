@@ -30,8 +30,9 @@ const Home = ({ name, title }) => {
       <img className="background" src={image} alt="" />
       <div
         style={{
+          fontSize: "3rem",
           fontFamily: "consolas",
-          position: "absolute",
+          position: "relative",
           top: "15rem",
           left: "37rem",
           width: "50rem",
