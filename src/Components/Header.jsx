@@ -26,7 +26,7 @@ const Header = () => {
       <a href="#experience">Work Experience</a>
       <a href="#portfolio">Projects</a>
       <a
-        href="https://drive.google.com/file/d/1GuLTHl_pE2ydOKfi4g9PuFGC2hQhrGgM/view?usp=sharing"
+        href="https://drive.google.com/file/d/15ASgthmrHfpX6gDvCOSpF8Xbn9kwkdi_/view?usp=sharing"
         target="_blank"
         rel="noopener noreferrer"
       >
