@@ -25,11 +25,20 @@ const imageAltText = "purple and blue abstract background";
  */
 const description = (
   <p>
-    Hey yo! I am a privacy proponent, currently working as Data Scientist at{" "}
-    <a href="https://www.viral.careers/" style={{ textDecoration: "underline" }}>
-      VIRAL
-    </a>
-    .
+    ML Research Engineer with 3 years of commercial experience, and the Host of the Applied Privacy Podcast, featuring industry leaders (CEOs, CPOs etc.) and researchers. I have
+successfully developed impactful solutions, including a RAG-based ranking system that increased high-quality candidate applications by 40% and an automated
+ETL pipeline that reduced data collection time by 90%. Engineered a custom Visual Odometry solution for polytunnels, significantly enhancing position
+accuracy for autonomous navigation in agricultural settings. Built a privacy-preserving federated learning system and engineered a GAN for high-fidelity image
+generation, showcasing versatility in cutting-edge technologies. Proven track record in educational leadership, driving a 55% revenue increase by training over
+5,000 students in data science and machine learning. Speaking Python, TensorFlow, PyTorch, and other advanced tools to solve complex problems and innovate
+in AI and data science. Open-sourced a {" "}
+    <a
+      href="https://pypi.org/project/simple-ats/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <u>PyPI Package</u>
+    </a>{" "}to match resumes & job descriptions to return a similarity score.
   </p>
 );
 

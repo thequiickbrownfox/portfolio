@@ -13,11 +13,14 @@ function Experience() {
               <div className="timeline-dot"></div>
               <div className="timeline-content">
                 <h3>Data Scientist @ VIRAL</h3>
-                <p>06/2024 - Present</p>
+                <p>06/2024 - 07/2024</p>
                 <ul>
-                  <li>Built a pipeline to automatically extract job descriptions from job boards, clean it, transform it and load it to the Airtable.</li>
-                  <li>Built a simple RAG pipeline to rank the quality of job descriptions based on 25 KPIs identified. This system scores based on a semantic similarity
-search.</li>
+                  <li>Developed a RAG-based ranking system using sentence_transformers embeddings and cosine similarity, evaluating job descriptions against 25 KPIs,
+                  resulting in a 40% increase in high-quality candidate applications and demonstrating advanced NLP skills</li>
+                  <li>Engineered an automated ETL pipeline using Python, and Airtable to extract job descriptions from multiple job boards, leveraging Axiom.ai,
+                  BeautifulSoup and Selenium for web scraping, reducing data collection time by 90% and increasing processed listings by 3x.</li>
+                  <li>Developed comprehensive data cleaning and transformation processes using Pandas and NLTK, including regex pattern matching, text normalisation,
+                  and entity recognition, improving data quality by 95% and ensuring consistency across diverse job posting formats.</li>
                 </ul>
               </div>
             </div>
@@ -27,9 +30,18 @@ search.</li>
                 <h3>Machine Learning Research Engineer (Computer Vision) @ FruitCast</h3>
                 <p>03/2024 - 06/2024</p>
                 <ul>
-                  <li>Research, develop and implement SOTA Visual Odometry for the application in polytunnels.</li>
-                  <li>Responsible for tasks including pattern recognition, and application of robotics within the company in liaison with the data engineer and computer vision expert using Visual Odometry.</li>
-                  <li>Developed and implemented computer vision algorithms, managing large datasets, and working closely in cross-functional teams for data science, mechanical design, sensors, firmware, and software engineering.</li>
+                  <li>Built a custom Visual Odometry solution for polytunnel environments by adapting the LightGlue feature extractor. Optimised the algorithm to process
+laterally moving video footage, a significant departure from traditional forward-facing camera implementations. This tailored approach involved
+fine-tuning feature detection parameters, implementing outlier rejection methods, and developing a novel tracking mechanism to handle the unique
+challenges of lateral movement in confined spaces, resulting in substantially improved position accuracy for autonomous navigation in agricultural
+settings.
+</li>
+                  <li>Built a Visual Odometry pipeline, conducting on-site testing at the Riseholme campus by setting up cameras in polytunnels and processing monocular
+camera footage. Applied Gaussian blur to smooth extracted features in each frame, enabling accurate distance estimation for the camera's movement
+within the polytunnel environment.</li>
+                  <li>Spent approximately 10% of my time on data annotation, classifying strawberries into six distinct categories using V7, ensuring high-quality training
+data for machine learning models.
+</li>
                 </ul>
               </div>
             </div>
