@@ -13,7 +13,7 @@ function Experience() {
               <div className="timeline-dot"></div>
               <div className="timeline-content">
                 <h3>Data Scientist @ VIRAL</h3>
-                <p>06/2024 - 07/2024</p>
+                <p>06/2024 - 08/2024</p>
                 <ul>
                   <li>Developed a RAG-based ranking system using sentence_transformers embeddings and cosine similarity, evaluating job descriptions against 25 KPIs,
                   resulting in a 40% increase in high-quality candidate applications and demonstrating advanced NLP skills</li>
@@ -28,7 +28,7 @@ function Experience() {
               <div className="timeline-dot"></div>
               <div className="timeline-content">
                 <h3>Machine Learning Research Engineer (Computer Vision) @ FruitCast</h3>
-                <p>03/2024 - 06/2024</p>
+                <p>03/2024 - 08/2024</p>
                 <ul>
                   <li>Built a custom Visual Odometry solution for polytunnel environments by adapting the LightGlue feature extractor. Optimised the algorithm to process
 laterally moving video footage, a significant departure from traditional forward-facing camera implementations. This tailored approach involved
