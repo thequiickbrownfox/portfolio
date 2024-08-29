@@ -18,10 +18,17 @@ import ats from "../images/ats.jpeg";
 import vo from "../images/vo.png";
 import gnn from "../images/gnn.png";
 import rag from "../images/rag.png";
+import llm from "../images/llm.jpg";
 
 // const imageAltText = "desktop with books and laptop";
 
 const projectList = [
+  {
+    title: "Built LLM from Scratch",
+    description: "Built a Large Language Model (LLM) from scratch using PyTorch.",
+    url: "https://github.com/Spartan-119/llm/",
+    thumbnail: llm, // Use the imported thumbnail
+  },
   {
     title: "Applied Privacy Lite",
     description:
@@ -136,7 +143,6 @@ const projectList = [
   },
 ];
 
-
 const Portfolio = () => {
   // Divide the projects into 3 rows with 4 projects in each row
   const rows = [];
@@ -174,4 +180,3 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
-
