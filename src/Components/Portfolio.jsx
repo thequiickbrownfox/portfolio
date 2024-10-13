@@ -19,10 +19,17 @@ import vo from "../images/vo.png";
 import gnn from "../images/gnn.png";
 import rag from "../images/rag.png";
 import llm from "../images/llm.jpg";
+import chatbot from "../images/chatbot.png";
 
 // const imageAltText = "desktop with books and laptop";
 
 const projectList = [
+  {
+    title: " Knowledge Graph Powered LLM Chatbot",
+    description: "Developed a Knowledge-Graph-enabled chatbot that utilises GraphRAG for precise movie-related queries. The project employs Neo4J for the knowledge graph database and OpenAI’s O1 model to power the chatbot, which is deployed using Streamlit.",
+    url: "https://abin-movie-llm-chatbot.streamlit.app/",
+    thumbnail: chatbot, // Use the imported thumbnail
+  },
   {
     title: "Built LLM from Scratch",
     description: "Built a Large Language Model (LLM) from scratch using PyTorch.",
