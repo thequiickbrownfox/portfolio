@@ -19,16 +19,16 @@ import vo from "../images/vo.png";
 import gnn from "../images/gnn.png";
 import rag from "../images/rag.png";
 import llm from "../images/llm.jpg";
-import chatbot from "../images/chatbot.png";
+import gfsc from "../images/gfsc.png";
 
 // const imageAltText = "desktop with books and laptop";
 
 const projectList = [
   {
     title: " Knowledge Graph Powered LLM Chatbot",
-    description: "Developed a Knowledge-Graph-enabled chatbot that utilises GraphRAG for precise movie-related queries. The project employs Neo4J for the knowledge graph database and OpenAI’s O1 model to power the chatbot, which is deployed using Streamlit.",
-    url: "https://abin-movie-llm-chatbot.streamlit.app/",
-    thumbnail: chatbot, // Use the imported thumbnail
+    description: "Implemented a chatbot for the Guernsey Financial Services Commission (GFSC) using Streamlit, LangChain, GraphRAG, and Neo4j. The chatbot provides information about the Commission's risk-based regulation approach and can retrieve data from a knowledge graph.",
+    url: "https://github.com/Spartan-119/gfsc_chatbot",
+    thumbnail: gfsc, // Use the imported thumbnail
   },
   {
     title: "Built LLM from Scratch",

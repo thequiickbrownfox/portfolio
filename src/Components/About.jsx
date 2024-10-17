@@ -25,7 +25,7 @@ const imageAltText = "purple and blue abstract background";
  */
 const description = (
   <p>
-    ML Research Engineer with 3 years of commercial experience, and the Host of the Applied Privacy Podcast, featuring industry leaders (CEOs, CPOs etc.) and researchers. I have
+    ML Engineer with 3 years of commercial experience, and the Host of the Applied Privacy Podcast, featuring industry leaders (CEOs, CPOs etc.) and researchers. I have
 successfully developed impactful solutions, including a RAG-based ranking system that increased high-quality candidate applications by 40% and an automated
 ETL pipeline that reduced data collection time by 90%. Engineered a custom Visual Odometry solution for polytunnels, significantly enhancing position
 accuracy for autonomous navigation in agricultural settings. Built a privacy-preserving federated learning system and engineered a GAN for high-fidelity image
