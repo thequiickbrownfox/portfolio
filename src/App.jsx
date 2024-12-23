@@ -32,13 +32,11 @@ const siteProps = {
       Data Analyst <br />
     </>
   ),
-  email: "abinvarghese90@gmail.com",
-  gitHub: "Spartan-119",
-  instagram: "_coffee.consumer_/",
-  linkedIn: "iamabinvarghese/",
-  medium: "abin_varghese",
-  twitter: "_coffeedrinker_",
-  youTube: "@AbinVarghese",
+  email: "ashlidelhi@gmail.com",
+  gitHub: "thequiickbrownfox",
+  linkedIn: "ashli-varghese-a4b925188",
+  medium: "thequiickbrownfox",
+  twitter: "classhly",
 };
 
 const primaryColor = "#4E567E";
